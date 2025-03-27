@@ -6,7 +6,6 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Student;
-// Khodor Nahhas 20230531
 class StudentController extends Controller
 {
     public function index(Request $request)
@@ -35,7 +34,7 @@ class StudentController extends Controller
 
     public function create()
     {
-        return view('students.create');
+        return view('create');
     }
 
     public function store(Request $request)

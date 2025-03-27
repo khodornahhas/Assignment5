@@ -7,7 +7,7 @@
           <a class="nav-link" href="/students">Students</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/add-student">Add Student</a>
+          <a class="nav-link" href="{{route('students.create')}}">Add Student</a>
         </li>
       </ul>
     </div>
